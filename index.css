@@ -1,0 +1,72 @@
+h1 {
+    /* font-family: Gill Sans; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 45px; */
+    /* text-decoration: underline; */
+}
+
+h3 {
+    /* font-family: sans-serif; */
+    /* display: flex; */
+    /* justify-content: right; */
+    /* font-size: 25px; */
+    /* text-decoration: line-through; */
+}
+
+p {
+    /* font-family: verdana; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 15px; */
+}
+
+body {
+    /* background-color: plum; */
+/* if we want to get crazy we can set a background that has mutiple colors.  */
+    /* background: linear-gradient(to left, rgba(245,125,145,1), rgba(80,4,184,1)); */
+}
+
+/* We use the dot when grabbing a certain class. */
+.lets-customize {
+    /* font-family: impact; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 18px; */
+    /* color: lightseagreen; */
+    /* margin: 3rem; */
+}
+
+/* We use a hashtag when grabbing an id.  */
+#specific {
+    /* font-family: Tahoma; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* color: lightskyblue; */
+    /* box-shadow: 1px 1px 5px rgba(0,0,0,1); */
+    /* margin: 3rem; */
+/* Margin gave us some room but lets add something to make this box a little bigger. */
+    /* padding: 2rem; */
+}
+
+/* If we want to move the buttom we must move it from within' the a tag since our button is wrapped inside the a tag. */
+a {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-decoration: none; */
+}
+
+button {
+    /* color: white; */
+    /* font-family: courier; */
+    /* border-radius: 15px; */
+    /* border: none; */
+    /* background-color: rgba(235, 17, 181); */
+    /* box-shadow: 2px 2px 3px rgba(0,0,0,1); */
+}
+
+/* Now lets make this button interact with the user.  */
+button:hover {
+    /* transform: scale(1.1); */
+    /* background: linear-gradient(to left, rgb(20, 135, 153), rgb(184, 4, 145)); */
+}
