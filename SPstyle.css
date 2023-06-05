@@ -12,7 +12,7 @@ h1 {
     font-size: 50px;
     margin-left: 1rem;
     margin-right: 1rem;
-    background-color: black;
+    background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     padding: 2rem;
     border: solid rgba(21,220,220,1)
