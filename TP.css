@@ -22,21 +22,52 @@ body {
 
 img {
     display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     height: 250px;
     object-fit: cover;
+    border-radius: 15px;
+/* if we want to make padding behind the img we can put the img inside a div tag? */
 }
 
 .select-example {
     display: flex;
     justify-content: center;
-    margin: 1rem;
-    
-
+    margin: 2rem;
 }
 
 .sports {
     display: flex;
     justify-content: center;
-    
+}
+
+select {
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+
+ol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 2rem;
+}
+
+.div-example {
+    display: flex;
+/* if i dont use flex-direction and column than it would look very differant. */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
