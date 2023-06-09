@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to left, rgba(159,166,240,0.85), rgba(255,166,240,0.85));
+    font-family: sans-serif;
+}
+
+.br-tag {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.a-tag-example {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.a-tag-example:hover {
+    cursor: pointer;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    object-fit: cover;
+}
+
+.select-example {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    
+
+}
+
+.sports {
+    display: flex;
+    justify-content: center;
+    
+}
