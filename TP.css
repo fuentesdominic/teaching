@@ -70,4 +70,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 3rem;
+    background-color: rgba(1,1,1,0.15);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(1,1,1,1);
 }
