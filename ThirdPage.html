@@ -55,6 +55,22 @@
             <input type="submit" value="Submit">
           </form>
 
+          <button onclick="showContent()">Show hidden content</button>
+
+<!-- template hides content for you when the page loads. -->
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+
 <!-- Once we show them all of this lets show them a simple react page. -->
 
         <a href="SecondPage.html"></a>
